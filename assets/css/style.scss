@@ -17,15 +17,37 @@ h1, h2, h3 {
 }
 /* Main body text color */
 body {
-    color: #333333 !important; /* Example: dark gray */
+    color: #ffffff !important; /* Example: dark gray */
 }
 
 /* Text inside paragraphs, lists, etc. */
 p, li, td, th {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
+
+/* Site title in the header */
+.site-title, .site-title:visited {
+    color: #ffffff !important;
+}
+
+/* Site description / tagline in the header */
+.site-description {
+    color: #ffffff !important;
+}
+
+/* ===== Footer ===== */
+
+/* All text inside the footer */
+footer, footer p, footer small {
+    color: #ffffff !important;
+}
+
+/* Links inside the footer (Instagram, Email) */
+footer a, footer a:visited {
+    color: #ffffff !important;
+}
 /* Link colors (optional but recommended) */
 a, a:visited {
-    color: #0366d6 !important; /* Example: standard link blue */
+    color: #ffffff !important; /* Example: standard link blue */
 }
