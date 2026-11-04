@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-    background-color: #070046 !important; /* Example: light blue-gray background */
+    background-color: #0d002c !important; /* Example: light blue-gray background */
 }
 
 /* Override the title color in the header */
@@ -14,4 +14,18 @@ body {
 /* If you also want to change the title color in the content area (e.g., h1, h2) */
 h1, h2, h3 {
     color: #ffffff !important;
+}
+/* Main body text color */
+body {
+    color: #333333 !important; /* Example: dark gray */
+}
+
+/* Text inside paragraphs, lists, etc. */
+p, li, td, th {
+    color: #333333 !important;
+}
+
+/* Link colors (optional but recommended) */
+a, a:visited {
+    color: #0366d6 !important; /* Example: standard link blue */
 }
