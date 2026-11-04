@@ -3,7 +3,11 @@
 
 @import "{{ site.theme }}";
 body {
-    background-color: #0d002c !important; /* Example: light blue-gray background */
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/images/eso1406a.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
 /* Override the title color in the header */
