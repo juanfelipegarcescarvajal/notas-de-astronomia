@@ -1,0 +1,14 @@
+@import "{{ site.theme }}";
+body {
+    background-color: #f0f4f8 !important; /* Example: light blue-gray background */
+}
+
+/* Override the title color in the header */
+.site-title, .site-title:visited {
+    color: #2c3e50 !important; /* Example: dark blue-gray title */
+}
+
+/* If you also want to change the title color in the content area (e.g., h1, h2) */
+h1, h2, h3 {
+    color: #2c3e50 !important;
+}
